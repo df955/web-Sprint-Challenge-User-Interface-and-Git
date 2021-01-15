@@ -52,12 +52,14 @@ footer, header, hgroup, menu, nav, section {
     text-decoration: none;
     color: black
 }
+
 .split1{
     padding: 30px;
     display:flex;
     justify-content: center;
     align-content: center;
 }
+
 
 body {
 	line-height: 1;
@@ -206,3 +208,63 @@ footer nav a {
 /* Is there a way to style divs in flexbox without
 having to create lines?*/
 
+/* About Portion CSS
+This is actually quite annoying to me
+*/
+
+/*
+.containerAbout1{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+*/
+.containerAbout1{       
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.topAbout {
+    padding: 20px;
+    display:flex;   
+    width: 60%; 
+    flex-flow: column;
+   align-content: center;
+   justify-content: center;
+   border-bottom: 1px dashed black;
+}
+
+.twoPiece{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    justify-content: center;
+}
+
+.container1, .container2{
+    margin: 20px;
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    border-bottom: 1px dashed black;
+    display:flex;
+    flex-direction: column;
+}  
+.stratContain, .stratContaint2{
+    padding: 10px;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
