@@ -26,8 +26,39 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
+
+.logo{  
+    float: left;
+}
+.navBar {
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-content: center;
+}
+
+.navFlex{
+    padding: 30px;
+    height: 50px;
+    width: 130px;
+    
+}
+.navFlex a{
+    text-decoration: none;
+    color: black
+}
+.split1{
+    padding: 30px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
 body {
 	line-height: 1;
 }
@@ -101,17 +132,45 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box:nth-child(1){
+    background:teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background:gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background:cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background:coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background:crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background:forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background:darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background:hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background:indigo;
+}
+.middle-content .boxes .box:nth-child(10){
+    background:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +203,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* Is there a way to style divs in flexbox without
+having to create lines?*/
+
